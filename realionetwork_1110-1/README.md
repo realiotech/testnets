@@ -8,19 +8,13 @@ Follow the instructions on the official documentation to [join the testnet](http
 
 ## Genesis File
 
-Download the zipped genesis file [genesis.zip](./genesis.zip)
-
-Extract it with command
-
-```bash
-unzip genesis.zip
-```
+Download the genesis file [genesis.zip](./genesis.json)
 
 Verify the SHA256 checksum using:
 
 ```bash
 sha256sum genesis.json
-# 1231212312  genesis.json
+# bebd6acba0249f53afbe4b23a5689f86ab3f3677e3903e16779390017e3089b6  genesis.json
 ```
 
 ## Details
