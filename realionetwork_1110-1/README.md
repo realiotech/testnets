@@ -1,4 +1,4 @@
-# RealioNetwork Testnet
+# RealioNetwork Testnet <span style="color:red">Deprecated</span>
 
 ## Instructions
 
