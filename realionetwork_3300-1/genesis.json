@@ -28,13 +28,13 @@
         {
           "authorizationRequired": true,
           "authorized": {
-            "realio17ad5kxllue0wx8ja9ke09lys0fzs0ltxkezent": {
-              "address": "realio17ad5kxllue0wx8ja9ke09lys0fzs0ltxkezent",
+            "realio1rj6my433u6wzzev6xvduggwvq30pfhwtsac3qa": {
+              "address": "realio1rj6my433u6wzzev6xvduggwvq30pfhwtsac3qa",
               "authorized": true,
               "tokenSymbol": "RST"
             }
           },
-          "manager": "realio17ad5kxllue0wx8ja9ke09lys0fzs0ltxkezent",
+          "manager": "realio1rj6my433u6wzzev6xvduggwvq30pfhwtsac3qa",
           "name": "Realio Security Token",
           "symbol": "RST",
           "total": "50000000"
