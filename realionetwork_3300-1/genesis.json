@@ -375,12 +375,12 @@
     },
     "mint": {
       "minter": {
-        "inflation": "0.000000000000000000",
+        "inflation": "0.100000000000000000",
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
         "mint_denom": "ario",
-        "inflation_rate": "0.000000000000000000",
+        "inflation_rate": "0.100000000000000000",
         "blocks_per_year": "6311520"
       }
     },
