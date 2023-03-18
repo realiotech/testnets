@@ -23,7 +23,7 @@ sha256sum genesis.json
 
 - Network Chain ID: `realionetwork_3300-1`
 - EIP155 Chain ID: `3300`
-- `realio-networkd` version: [`v0.8.0-rc1`](https://github.com/realiotech/realio-network/releases)
+- `realio-networkd` version: [`v0.8.0`](https://github.com/realiotech/realio-network/releases)
 - Explorer: [explorer.realionetwork.dev](https://explorer.k8s.stage.realio.fund/)
 
 ## Seeds & Peers
