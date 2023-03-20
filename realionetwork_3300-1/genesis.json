@@ -86,6 +86,26 @@
             "sequence": "0"
           },
           "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "realio1eu5hjtj3l8plh7xzjp9yn3zljvyalhedz4athv",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "realio1c4vx9etvahy92jccl6zmfc55t87mmcc6w0j630",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
         }
       ]
     },
@@ -119,6 +139,20 @@
           }]
         },
         {
+          "address": "realio1eu5hjtj3l8plh7xzjp9yn3zljvyalhedz4athv",
+          "coins": [{
+            "denom": "ario",
+            "amount": "11000000000000000000000"
+          }]
+        },
+        {
+          "address": "realio1c4vx9etvahy92jccl6zmfc55t87mmcc6w0j630",
+          "coins": [{
+            "denom": "ario",
+            "amount": "11000000000000000000000"
+          }]
+        },
+        {
           "address": "realio17lw344gwpm3e2ejss2xexssv9pjcy7296vl3v2",
           "coins": [{
             "denom": "ario",
@@ -128,7 +162,7 @@
       ],
       "supply": [{
         "denom": "ario",
-        "amount": "50015500000000000000000000"
+        "amount": "50037500000000000000000000"
       },
         {
           "denom": "arst",
