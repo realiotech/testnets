@@ -16,14 +16,14 @@ Verify the SHA256 checksum using:
 
 ```bash
 sha256sum genesis.json
-# 37b42bbe0af7862a684eff356fc25331c2b0bd87b75d87b3164de9f7ccdc3dad  genesis.json
+# f6617533488ae23b4a3cf8a1d1e582a12640d2f4fc6a7205548436a5b57bb5d7  genesis.json
 ```
 
 ## Details
 
 - Network Chain ID: `realionetwork_3300-1`
 - EIP155 Chain ID: `3300`
-- `realio-networkd` version: [`v0.8.0`](https://github.com/realiotech/realio-network/releases)
+- `realio-networkd` version: [`v0.8.1`](https://github.com/realiotech/realio-network/releases/tag/v0.8.1)
 - Explorer: [explorer.realionetwork.dev](https://explorer.k8s.stage.realio.fund/)
 
 ## Seeds & Peers
