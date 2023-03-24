@@ -31,12 +31,12 @@
             "realio1rj6my433u6wzzev6xvduggwvq30pfhwtsac3qa": {
               "address": "realio1rj6my433u6wzzev6xvduggwvq30pfhwtsac3qa",
               "authorized": true,
-              "tokenSymbol": "RST"
+              "tokenSymbol": "rst"
             }
           },
           "manager": "realio1rj6my433u6wzzev6xvduggwvq30pfhwtsac3qa",
           "name": "Realio Security Token",
-          "symbol": "RST",
+          "symbol": "rst",
           "total": "50000000"
         }
       ]
