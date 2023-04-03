@@ -309,68 +309,6 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "Industry Stakers",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": "Professional Staking Service, 100% uptime when its up"
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "realio1jhxns8c3769mgzwaw8qnrrhvfk52s3hdy2vdsl",
-                "validator_address": "realiovaloper1jhxns8c3769mgzwaw8qnrrhvfk52s3hds70hpe",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "mA+aGp+CGqeDtGKkZfKB4QRkSfQnDmEQ8E0yltAj2Mg="
-                },
-                "value": {
-                  "denom": "ario",
-                  "amount": "10000000000000000000000"
-                }
-              }
-            ],
-            "memo": "4bd2dfdea23a251f5e1fd583033072121f6a59e8@144.126.196.99:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "A5W2agOQIICCvOWzLZB67+71guKA5Cu20ulK0vGaMoM6"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            },
-            "tip": null
-          },
-          "signatures": [
-            "G4WkRjVtFfmQ0t53PcihfZ8A9GGiSW/q3+H/P97CIZYdSVm7uQXQVNO5YHqXQ4O2E5ixoNrDpaOlQ6+GiCGnngA="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
                   "moniker": "RalphsRst",
                   "identity": "",
                   "website": "",
@@ -395,7 +333,7 @@
                 }
               }
             ],
-            "memo": "a6dcb402dd673175897c44707067b6038f5312f1@206.189.49.63:26656",
+            "memo": "39e84967c02c7c04a0dd4bd426d484a65373d158@206.189.49.63:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -424,7 +362,69 @@
             "tip": null
           },
           "signatures": [
-            "D01V+jGHk2M5saZKixGddr67QO1msYsMNkm+xB5RFs0XttsmtRMCfAEAOUk2YgNhnKq8f8XMqUiJiAx4/tCYmAA="
+            "I4MVlxL0DYGtUMeCIcTzCjLEfcmbeOcUafykYUgBdGFvOQl8oCI8LXAB6JCff6yDrMzMpXExxhVVo8/dkSPk2gA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Industry Stakers",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": "Professional Staking Service, 100% uptime when its up"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "realio1jhxns8c3769mgzwaw8qnrrhvfk52s3hdy2vdsl",
+                "validator_address": "realiovaloper1jhxns8c3769mgzwaw8qnrrhvfk52s3hds70hpe",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "mA+aGp+CGqeDtGKkZfKB4QRkSfQnDmEQ8E0yltAj2Mg="
+                },
+                "value": {
+                  "denom": "ario",
+                  "amount": "10000000000000000000000"
+                }
+              }
+            ],
+            "memo": "eced2e7edfe6c530ccf319ca7c6ce0b72d1d5570@144.126.196.99:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A5W2agOQIICCvOWzLZB67+71guKA5Cu20ulK0vGaMoM6"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "oKeWKOijNsMrnkuUQZvBz5/5KLuZ4qP4Sw3XflOyPG9bLD1alwsVzhTbSAT5RTaMk/vbc4uP0c1HTzvg0pVPcwA="
           ]
         }
       ]
