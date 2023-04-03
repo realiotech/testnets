@@ -11,7 +11,7 @@ For the full instructions on how to [join the testnet](https://docs.realio.netwo
 ## Deprecated Testnets
 - [RealioNetwork_1110-1](./realionetwork_1110-1) is a deprecated testnet which ran from 2022-9-30 to 2022-11-24
 - [RealioNetwork_1110-2](./realionetwork_1110-2) is a deprecated testnet which ran from 2022-11-24 to 2023-3-17
-- [RealioNetwork_1110-2](./realionetwork_3300-1) is a deprecated testnet which ran pre alpha launch until 2023-3-31
+- [RealioNetwork_3300-1](./realionetwork_3300-1) is a deprecated testnet which ran pre alpha launch until 2023-3-31
 
 
 For the full instructions on how to [join the testnet](https://docs.realio.network/testnet/overview), please refer to the official [documentation](https://docs.realio.network/).
