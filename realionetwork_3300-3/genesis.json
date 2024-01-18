@@ -303,6 +303,68 @@
     },
     "genutil": {
       "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Realio Validator",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": "Professional Staking Service, 100% uptime when its up"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "100",
+                "delegator_address": "realio1jhxns8c3769mgzwaw8qnrrhvfk52s3hdy2vdsl",
+                "validator_address": "realiovaloper1jhxns8c3769mgzwaw8qnrrhvfk52s3hds70hpe",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "MW+g5OrSA5tpebcrGhvlNCQEAJzSgh8B9dDre4zeF/M="
+                },
+                "value": {
+                  "denom": "ario",
+                  "amount": "100000000000000000000000"
+                }
+              }
+            ],
+            "memo": "f6d44b51544ad992ddbdfec43e634ffc8bafc85c@144.126.196.99:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A5W2agOQIICCvOWzLZB67+71guKA5Cu20ulK0vGaMoM6"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "Up3K1tO5ttCvzfjfXzU/6lVGwyAXLQgPE33DQL8rbk4qsA3JVmiTWi6xieU373lubMb5LMqwc/2BhwOSTaK1cgA="
+          ]
+        }
       ]
     },
     "gov": {
