@@ -62,7 +62,7 @@ sha256sum genesis.json
 ## Seeds & Peers
 
 ```
-bfe0e387464dd40fc1caa0063f63729f313374f7@65.109.28.165:2020,4c3c84a58e82cd3067bbfef3aa08c6d8b4a079ff@37.27.56.238:2020,80cc7edd6bea9bac6642d291b1298f1d1e88402a@65.108.1.60:2020
+4c3c84a58e82cd3067bbfef3aa08c6d8b4a079ff@37.27.56.238:2020,4c3c84a58e82cd3067bbfef3aa08c6d8b4a079ff@37.27.56.238:2020,47c485c5160ee63165b82ce8a4b196312451fe91@144.126.196.99:26656
 ```
 
 Pop in the [ testnet seed channel on discord](https://discord.gg/Nv9EUbRnKb) and ask for other peer/seed nodes
