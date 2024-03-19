@@ -4,7 +4,7 @@ This repo contains genesis files for the [RealioNetwork](https://github.com/real
 
 The latest testnet is [RealioNetwork_3300-3](./realionetwork_3300-3).
 
-The latest release version is [**v0.8.0-rc4**](https://github.com/realiotech/realio-network/releases/tag/v0.8.0-rc4)
+The latest release hash is [**e762fc5cf5**](https://github.com/realiotech/realio-network/commits/main/)
 
 For the full instructions on how to [join the testnet](https://docs.realio.network/testnet/join-public/setup), please refer to the official [documentation](https://docs.realio.network/).
 
