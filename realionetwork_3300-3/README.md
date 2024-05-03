@@ -40,16 +40,16 @@ sha256sum genesis.json
 - Network Chain ID: `realionetwork_3300-3`
 - EIP155 Chain ID: `3300`
 - Explorer: [testnet-explorer.realio.network](https://testnet-explorer.realio.network)
-- `realio-networkd` version: [`0.8.3-68-g3230cf1`](https://github.com/realiotech/realio-network/commit/3230cf1fd87a8d9b1398e50418deb362fa3c5694)
+- `realio-networkd` version: [`0.9.2`](https://github.com/realiotech/realio-network/commit/7fd9755884074f2a032ea89aed98117954597505)
    ```bash
    $ realio-networkd version --long
     
-   commit: 3230cf1fd87a8d9b1398e50418deb362fa3c5694
+   commit: 7fd9755884074f2a032ea89aed98117954597505
    cosmos_sdk_version: v0.46.12
    go: go version go1.21.5 linux/amd64
    name: realio-network
    server_name: realio-networkd
-   version: 0.8.3-68-g3230cf1
+   version: 0.9.2
    ```
    
 ## Upgrades
@@ -59,10 +59,5 @@ sha256sum genesis.json
 | v0.8.3            | 1       | 55f63ff6ef1d98997106aab16e6accff43f40755 |
 | 0.8.3-68-g3230cf1 | 310,744 | 3230cf1fd87a8d9b1398e50418deb362fa3c5694 |
 
-## Seeds & Peers
-
-```
-4c3c84a58e82cd3067bbfef3aa08c6d8b4a079ff@37.27.56.238:2020,4c3c84a58e82cd3067bbfef3aa08c6d8b4a079ff@37.27.56.238:2020,47c485c5160ee63165b82ce8a4b196312451fe91@144.126.196.99:26656
-```
 
 Pop in the [ testnet seed channel on discord](https://discord.gg/Nv9EUbRnKb) and ask for other peer/seed nodes
