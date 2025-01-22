@@ -2,7 +2,7 @@
 
 This repo contains genesis files for the [RealioNetwork](https://github.com/realiotech/realio-network) Testnets.
 
-The latest testnet is [RealioNetwork_3300-2](./realionetwork_3300-4).
+The latest testnet is [RealioNetwork_3300-4](./realionetwork_3300-4).
 
 The latest release version is [**v1.0.2**](https://github.com/realiotech/realio-network/releases/tag/v1.0.2)
 
