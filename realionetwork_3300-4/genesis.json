@@ -355,7 +355,7 @@
         "expedited_min_deposit": [
           {
             "denom": "ario",
-            "amount": "50000000"
+            "amount": "20000000000000000000000"
           }
         ],
         "burn_vote_quorum": false,
