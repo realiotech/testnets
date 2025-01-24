@@ -9,7 +9,25 @@
       "07-tendermint": null,
       "asset": {
         "params": {},
-        "tokens": []
+        "tokens": [
+          {
+            "authorizationRequired": true,
+            "authorized": [
+              {
+                "address": "realio1rj6my433u6wzzev6xvduggwvq30pfhwtsac3qa",
+                "authorized": true
+              },
+              {
+                "address": "realio1mx3h3zue85jj0u48uv9eyr3yprkqr70d0x0egr",
+                "authorized": true
+              }
+            ],
+            "manager": "realio1rj6my433u6wzzev6xvduggwvq30pfhwtsac3qa",
+            "name": "Realio Security Token",
+            "symbol": "rst",
+            "total": "50000000"
+          }
+        ]
       },
       "auth": {
         "params": {
@@ -21,18 +39,54 @@
         },
         "accounts": [
           {
-            "@type": "/cosmos.auth.v1beta1.BaseAccount",
-            "address": "realio1jyrr9ga485mzdw6u7w7vcvcmhz8h6zq8w4vxzu",
-            "pub_key": null,
-            "account_number": "0",
-            "sequence": "0"
+            "@type": "/ethermint.types.v1.EthAccount",
+            "base_account": {
+              "address": "realio17lw344gwpm3e2ejss2xexssv9pjcy7296vl3v2",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
           },
           {
-            "@type": "/cosmos.auth.v1beta1.BaseAccount",
-            "address": "realio1824jpqunx75eaeqqgvvppv3ec2gvevulf7722n",
-            "pub_key": null,
-            "account_number": "1",
-            "sequence": "0"
+            "@type": "/ethermint.types.v1.EthAccount",
+            "base_account": {
+              "address": "realio1jhxns8c3769mgzwaw8qnrrhvfk52s3hdy2vdsl",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+          },
+          {
+            "@type": "/ethermint.types.v1.EthAccount",
+            "base_account": {
+              "address": "realio1rj6my433u6wzzev6xvduggwvq30pfhwtsac3qa",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+          },
+          {
+            "@type": "/ethermint.types.v1.EthAccount",
+            "base_account": {
+              "address": "realio19mjtn7dz2dvvg70pzafq6cuc7mz9al6ej5g9y9",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+          },
+          {
+            "@type": "/ethermint.types.v1.EthAccount",
+            "base_account": {
+              "address": "realio1mx3h3zue85jj0u48uv9eyr3yprkqr70d0x0egr",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
           }
         ]
       },
@@ -45,6 +99,24 @@
           "default_send_enabled": true
         },
         "balances": [
+          {
+            "address": "realio1rj6my433u6wzzev6xvduggwvq30pfhwtsac3qa",
+            "coins": [
+              {
+                "denom": "arst",
+                "amount": "49900000000000000000000000"
+              }
+            ]
+          },
+          {
+            "address": "realio19mjtn7dz2dvvg70pzafq6cuc7mz9al6ej5g9y9",
+            "coins": [
+              {
+                "denom": "ario",
+                "amount": "45000000000000000000000000"
+              }
+            ]
+          },
           {
             "address": "realio1824jpqunx75eaeqqgvvppv3ec2gvevulf7722n",
             "coins": [
@@ -66,19 +138,97 @@
                 "amount": "75000000000000000000000000"
               }
             ]
+          },
+          {
+            "address": "realio1jhxns8c3769mgzwaw8qnrrhvfk52s3hdy2vdsl",
+            "coins": [
+              {
+                "denom": "ario",
+                "amount": "150000000000000000000000"
+              }
+            ]
+          },
+          {
+            "address": "realio1mx3h3zue85jj0u48uv9eyr3yprkqr70d0x0egr",
+            "coins": [
+              {
+                "denom": "ario",
+                "amount": "100000000000000000000"
+              },
+              {
+                "denom": "arst",
+                "amount": "100000000000000000000000"
+              }
+            ]
+          },
+          {
+            "address": "realio17lw344gwpm3e2ejss2xexssv9pjcy7296vl3v2",
+            "coins": [
+              {
+                "denom": "ario",
+                "amount": "5000000000000000000000000"
+              }
+            ]
           }
         ],
         "supply": [
           {
             "denom": "ario",
-            "amount": "150000000000000000000000000"
+            "amount": "200150100000000000000000000"
           },
           {
             "denom": "arst",
-            "amount": "75000000000000000000000000"
+            "amount": "125000000000000000000000000"
           }
         ],
-        "denom_metadata": [],
+        "denom_metadata": [
+          {
+            "description": "The native utility, gas, evm, governance and staking token of the Realio Network",
+            "denom_units": [
+              {
+                "denom": "ario",
+                "exponent": 0,
+                "aliases": [
+                  "attorio"
+                ]
+              },
+              {
+                "denom": "rio",
+                "exponent": 18,
+                "aliases": []
+              }
+            ],
+            "base": "ario",
+            "display": "rio",
+            "name": "Realio Network Rio",
+            "symbol": "RIO",
+            "uri": "",
+            "uri_hash": ""
+          },
+          {
+            "description": "Realio Security Token",
+            "denom_units": [
+              {
+                "denom": "arst",
+                "exponent": 0,
+                "aliases": [
+                  "attorst"
+                ]
+              },
+              {
+                "denom": "rst",
+                "exponent": 18,
+                "aliases": []
+              }
+            ],
+            "base": "arst",
+            "display": "rst",
+            "name": "Realio Security Token",
+            "symbol": "RST",
+            "uri": "",
+            "uri_hash": ""
+          }
+        ],
         "send_enabled": []
       },
       "bridge": {
@@ -269,12 +419,12 @@
         "params": {
           "min_deposit": [
             {
-              "denom": "stake",
-              "amount": "10000000"
+              "denom": "ario",
+              "amount": "10000000000000000000000"
             }
           ],
-          "max_deposit_period": "172800s",
-          "voting_period": "172800s",
+          "max_deposit_period": "86400s",
+          "voting_period": "86400s",
           "quorum": "0.334000000000000000",
           "threshold": "0.500000000000000000",
           "veto_threshold": "0.334000000000000000",
@@ -285,8 +435,8 @@
           "expedited_threshold": "0.667000000000000000",
           "expedited_min_deposit": [
             {
-              "denom": "stake",
-              "amount": "50000000"
+              "denom": "ario",
+              "amount": "20000000000000000000000"
             }
           ],
           "burn_vote_quorum": false,
@@ -359,12 +509,16 @@
           {
             "denom": "arst",
             "bond_weight": "1.000000000000000000"
+          },
+          {
+            "denom": "lmx",
+            "bond_weight": "1.000000000000000000"
           }
         ],
         "validator_multi_staking_coins": [],
         "staking_genesis_state": {
           "params": {
-            "unbonding_time": "1814400s",
+            "unbonding_time": "86400s",
             "max_validators": 100,
             "max_entries": 7,
             "historical_entries": 10000,
@@ -393,7 +547,7 @@
       },
       "staking": {
         "params": {
-          "unbonding_time": "1814400s",
+          "unbonding_time": "86400s",
           "max_validators": 100,
           "max_entries": 7,
           "historical_entries": 10000,
@@ -444,4 +598,4 @@
         }
       }
     }
-  }
+}
