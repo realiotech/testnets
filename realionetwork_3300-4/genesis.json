@@ -39,6 +39,20 @@
         },
         "accounts": [
           {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "realio1jyrr9ga485mzdw6u7w7vcvcmhz8h6zq8w4vxzu",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "realio1824jpqunx75eaeqqgvvppv3ec2gvevulf7722n",
+            "pub_key": null,
+            "account_number": "1",
+            "sequence": "0"
+          },
+          {
             "@type": "/ethermint.types.v1.EthAccount",
             "base_account": {
               "address": "realio17lw344gwpm3e2ejss2xexssv9pjcy7296vl3v2",
